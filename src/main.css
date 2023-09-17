@@ -1,0 +1,17 @@
+* {
+    font-family: 'League Spartan', sans-serif;
+
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+
+    --color-surface: #EEE9E3;
+    --color-primary: #D2705B;
+    --color-disable-orange: #DFA698;
+    --color-secondary: #505050;
+    --color-disable-gray: #916055;
+
+    & a {
+        text-decoration: none;
+    }
+}
