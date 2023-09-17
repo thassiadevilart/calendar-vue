@@ -1,13 +1,11 @@
-import './main.css'
-
 import { createApp } from 'vue'
 import App from './App.vue';
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
-import { faRotateRight } from '@fortawesome/free-solid-svg-icons'
-library.add(faRotateRight)
+import { faRotateRight, faCalendar } from '@fortawesome/free-solid-svg-icons'
+library.add(faRotateRight, faCalendar)
 
 
 createApp(App)
